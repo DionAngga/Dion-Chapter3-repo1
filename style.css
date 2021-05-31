@@ -1,0 +1,61 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+h3{
+  color: black;
+}
+
+.navbar {
+   /*batas bawah nav bar */
+  opacity: 0.8;
+}
+
+.navbar-text{
+  color: #fff;
+}
+
+.navbar-text {
+  color: black;
+}
+
+.card {
+  opacity: 0.8;
+}
+
+.p-4 {
+  color: black;
+}
+
+#home-section {
+  background: url(./assets/main-bg.jpg);
+  min-height: 800px;
+  background-size: cover; /* biar ukuran gambar backgroudnya ngikutin ukuran home section */
+  
+}
+
+
+
+.dark-overlay {
+  /* background-color: rgba(0, 0, 0, 0.7); biar backgroudnya agak hitam */
+  position: absolute; /*biar ngga gerak dan jika ada ini maka buat top dan left*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+
+.home-inner {
+  padding-top: 200px;
+}
+
