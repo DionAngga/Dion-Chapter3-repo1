@@ -25,12 +25,8 @@ h3{
   color: #fff;
 }
 
-.navbar-text {
+.navbar-text:hover{
   color: black;
-}
-
-.card {
-  opacity: 0.8;
 }
 
 .p-4 {
@@ -44,7 +40,12 @@ h3{
   
 }
 
-
+#WORK {
+  background: url(./assets/the-games-bg.jpg);
+  min-height: 800px;
+  background-size: cover; /* biar ukuran gambar backgroudnya ngikutin ukuran home section */
+  
+}
 
 .dark-overlay {
   /* background-color: rgba(0, 0, 0, 0.7); biar backgroudnya agak hitam */
@@ -57,5 +58,11 @@ h3{
 
 .home-inner {
   padding-top: 200px;
+}
+
+.carousel-item {
+	height: 500px;
+	min-height: 100px;
+	background: size 90px;;
 }
 
